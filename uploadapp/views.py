@@ -93,7 +93,7 @@ def preprocess(img):
 def uploadImage(request):
     context = {}
     pno = 0
-    pytesseract.pytesseract.tesseract_cmd = "C:\\Program Files (x86)\\Tesseract-OCR\\tesseract.exe"
+    #pytesseract.pytesseract.tesseract_cmd = "C:\\Program Files (x86)\\Tesseract-OCR\\tesseract.exe"
     
 
     pi = request.FILES['image']
